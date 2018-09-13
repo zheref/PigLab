@@ -50,6 +50,7 @@
 		9DECA901214AF1FA00829EC0 /* PigLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PigLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DECA905214AF1FA00829EC0 /* PigLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PigLabUITests.m; sourceTree = "<group>"; };
 		9DECA907214AF1FA00829EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DECA913214AF26300829EC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		9DECA8D7214AF1F700829EC0 = {
 			isa = PBXGroup;
 			children = (
+				9DECA913214AF26300829EC0 /* README.md */,
 				9DECA8E2214AF1F700829EC0 /* PigLab */,
 				9DECA8F9214AF1FA00829EC0 /* PigLabTests */,
 				9DECA904214AF1FA00829EC0 /* PigLabUITests */,
@@ -431,6 +433,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.PigLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -449,6 +452,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.PigLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
