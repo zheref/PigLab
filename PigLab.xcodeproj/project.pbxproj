@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DECA8E5214AF1F700829EC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DECA8E4214AF1F700829EC0 /* AppDelegate.m */; };
+		9DECA8E8214AF1F700829EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DECA8E7214AF1F700829EC0 /* ViewController.m */; };
+		9DECA8EA214AF1FA00829EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DECA8E9214AF1FA00829EC0 /* Assets.xcassets */; };
+		9DECA8ED214AF1FA00829EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DECA8EB214AF1FA00829EC0 /* Main.storyboard */; };
+		9DECA8F0214AF1FA00829EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DECA8EF214AF1FA00829EC0 /* main.m */; };
+		9DECA8FB214AF1FA00829EC0 /* PigLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DECA8FA214AF1FA00829EC0 /* PigLabTests.m */; };
+		9DECA906214AF1FA00829EC0 /* PigLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DECA905214AF1FA00829EC0 /* PigLabUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DECA8F7214AF1FA00829EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DECA8D8214AF1F700829EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DECA8DF214AF1F700829EC0;
+			remoteInfo = PigLab;
+		};
+		9DECA902214AF1FA00829EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DECA8D8214AF1F700829EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DECA8DF214AF1F700829EC0;
+			remoteInfo = PigLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DECA8E0214AF1F700829EC0 /* PigLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PigLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DECA8E3214AF1F700829EC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DECA8E4214AF1F700829EC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DECA8E6214AF1F700829EC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DECA8E7214AF1F700829EC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DECA8E9214AF1FA00829EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DECA8EC214AF1FA00829EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DECA8EE214AF1FA00829EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DECA8EF214AF1FA00829EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DECA8F1214AF1FA00829EC0 /* PigLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PigLab.entitlements; sourceTree = "<group>"; };
+		9DECA8F6214AF1FA00829EC0 /* PigLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PigLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DECA8FA214AF1FA00829EC0 /* PigLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PigLabTests.m; sourceTree = "<group>"; };
+		9DECA8FC214AF1FA00829EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DECA901214AF1FA00829EC0 /* PigLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PigLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DECA905214AF1FA00829EC0 /* PigLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PigLabUITests.m; sourceTree = "<group>"; };
+		9DECA907214AF1FA00829EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DECA8DD214AF1F700829EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DECA8F3214AF1FA00829EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DECA8FE214AF1FA00829EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DECA8D7214AF1F700829EC0 = {
+			isa = PBXGroup;
+			children = (
+				9DECA8E2214AF1F700829EC0 /* PigLab */,
+				9DECA8F9214AF1FA00829EC0 /* PigLabTests */,
+				9DECA904214AF1FA00829EC0 /* PigLabUITests */,
+				9DECA8E1214AF1F700829EC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DECA8E1214AF1F700829EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DECA8E0214AF1F700829EC0 /* PigLab.app */,
+				9DECA8F6214AF1FA00829EC0 /* PigLabTests.xctest */,
+				9DECA901214AF1FA00829EC0 /* PigLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DECA8E2214AF1F700829EC0 /* PigLab */ = {
+			isa = PBXGroup;
+			children = (
+				9DECA8E3214AF1F700829EC0 /* AppDelegate.h */,
+				9DECA8E4214AF1F700829EC0 /* AppDelegate.m */,
+				9DECA8E6214AF1F700829EC0 /* ViewController.h */,
+				9DECA8E7214AF1F700829EC0 /* ViewController.m */,
+				9DECA8E9214AF1FA00829EC0 /* Assets.xcassets */,
+				9DECA8EB214AF1FA00829EC0 /* Main.storyboard */,
+				9DECA8EE214AF1FA00829EC0 /* Info.plist */,
+				9DECA8EF214AF1FA00829EC0 /* main.m */,
+				9DECA8F1214AF1FA00829EC0 /* PigLab.entitlements */,
+			);
+			path = PigLab;
+			sourceTree = "<group>";
+		};
+		9DECA8F9214AF1FA00829EC0 /* PigLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DECA8FA214AF1FA00829EC0 /* PigLabTests.m */,
+				9DECA8FC214AF1FA00829EC0 /* Info.plist */,
+			);
+			path = PigLabTests;
+			sourceTree = "<group>";
+		};
+		9DECA904214AF1FA00829EC0 /* PigLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DECA905214AF1FA00829EC0 /* PigLabUITests.m */,
+				9DECA907214AF1FA00829EC0 /* Info.plist */,
+			);
+			path = PigLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DECA8DF214AF1F700829EC0 /* PigLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DECA90A214AF1FA00829EC0 /* Build configuration list for PBXNativeTarget "PigLab" */;
+			buildPhases = (
+				9DECA8DC214AF1F700829EC0 /* Sources */,
+				9DECA8DD214AF1F700829EC0 /* Frameworks */,
+				9DECA8DE214AF1F700829EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PigLab;
+			productName = PigLab;
+			productReference = 9DECA8E0214AF1F700829EC0 /* PigLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DECA8F5214AF1FA00829EC0 /* PigLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DECA90D214AF1FA00829EC0 /* Build configuration list for PBXNativeTarget "PigLabTests" */;
+			buildPhases = (
+				9DECA8F2214AF1FA00829EC0 /* Sources */,
+				9DECA8F3214AF1FA00829EC0 /* Frameworks */,
+				9DECA8F4214AF1FA00829EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DECA8F8214AF1FA00829EC0 /* PBXTargetDependency */,
+			);
+			name = PigLabTests;
+			productName = PigLabTests;
+			productReference = 9DECA8F6214AF1FA00829EC0 /* PigLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DECA900214AF1FA00829EC0 /* PigLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DECA910214AF1FA00829EC0 /* Build configuration list for PBXNativeTarget "PigLabUITests" */;
+			buildPhases = (
+				9DECA8FD214AF1FA00829EC0 /* Sources */,
+				9DECA8FE214AF1FA00829EC0 /* Frameworks */,
+				9DECA8FF214AF1FA00829EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DECA903214AF1FA00829EC0 /* PBXTargetDependency */,
+			);
+			name = PigLabUITests;
+			productName = PigLabUITests;
+			productReference = 9DECA901214AF1FA00829EC0 /* PigLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DECA8D8214AF1F700829EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sergio Lozano García";
+				TargetAttributes = {
+					9DECA8DF214AF1F700829EC0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					9DECA8F5214AF1FA00829EC0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9DECA8DF214AF1F700829EC0;
+					};
+					9DECA900214AF1FA00829EC0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9DECA8DF214AF1F700829EC0;
+					};
+				};
+			};
+			buildConfigurationList = 9DECA8DB214AF1F700829EC0 /* Build configuration list for PBXProject "PigLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DECA8D7214AF1F700829EC0;
+			productRefGroup = 9DECA8E1214AF1F700829EC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DECA8DF214AF1F700829EC0 /* PigLab */,
+				9DECA8F5214AF1FA00829EC0 /* PigLabTests */,
+				9DECA900214AF1FA00829EC0 /* PigLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DECA8DE214AF1F700829EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DECA8EA214AF1FA00829EC0 /* Assets.xcassets in Resources */,
+				9DECA8ED214AF1FA00829EC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DECA8F4214AF1FA00829EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DECA8FF214AF1FA00829EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DECA8DC214AF1F700829EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DECA8E8214AF1F700829EC0 /* ViewController.m in Sources */,
+				9DECA8F0214AF1FA00829EC0 /* main.m in Sources */,
+				9DECA8E5214AF1F700829EC0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DECA8F2214AF1FA00829EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DECA8FB214AF1FA00829EC0 /* PigLabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DECA8FD214AF1FA00829EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DECA906214AF1FA00829EC0 /* PigLabUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DECA8F8214AF1FA00829EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DECA8DF214AF1F700829EC0 /* PigLab */;
+			targetProxy = 9DECA8F7214AF1FA00829EC0 /* PBXContainerItemProxy */;
+		};
+		9DECA903214AF1FA00829EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DECA8DF214AF1F700829EC0 /* PigLab */;
+			targetProxy = 9DECA902214AF1FA00829EC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DECA8EB214AF1FA00829EC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DECA8EC214AF1FA00829EC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DECA908214AF1FA00829EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9DECA909214AF1FA00829EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9DECA90B214AF1FA00829EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PigLab/PigLab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = PigLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.PigLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DECA90C214AF1FA00829EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PigLab/PigLab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = PigLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.PigLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DECA90E214AF1FA00829EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = PigLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.PigLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PigLab.app/Contents/MacOS/PigLab";
+			};
+			name = Debug;
+		};
+		9DECA90F214AF1FA00829EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = PigLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.PigLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PigLab.app/Contents/MacOS/PigLab";
+			};
+			name = Release;
+		};
+		9DECA911214AF1FA00829EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = PigLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.PigLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PigLab;
+			};
+			name = Debug;
+		};
+		9DECA912214AF1FA00829EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = PigLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.PigLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PigLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DECA8DB214AF1F700829EC0 /* Build configuration list for PBXProject "PigLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DECA908214AF1FA00829EC0 /* Debug */,
+				9DECA909214AF1FA00829EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DECA90A214AF1FA00829EC0 /* Build configuration list for PBXNativeTarget "PigLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DECA90B214AF1FA00829EC0 /* Debug */,
+				9DECA90C214AF1FA00829EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DECA90D214AF1FA00829EC0 /* Build configuration list for PBXNativeTarget "PigLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DECA90E214AF1FA00829EC0 /* Debug */,
+				9DECA90F214AF1FA00829EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DECA910214AF1FA00829EC0 /* Build configuration list for PBXNativeTarget "PigLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DECA911214AF1FA00829EC0 /* Debug */,
+				9DECA912214AF1FA00829EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DECA8D8214AF1F700829EC0 /* Project object */;
+}
