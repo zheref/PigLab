@@ -9,7 +9,7 @@
 6. ForceFeedback
 7. FWAUserLib
 8. IOBluetooth
-9. IOBluetooth UI
+9. IOBluetoothUI
 10. SecurityFoundation
 11. SecurityInterface
 12. QTKit
