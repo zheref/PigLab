@@ -10,4 +10,6 @@
 
 @interface SidebarHeaderCellView : NSTableCellView
 
+- (void)configureTitle:(NSString *)title;
+
 @end

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   SidebarItems.plist
-   PigLab
-
-   Created by Sergio Lozano García on 9/27/18.
-   Copyright (c) 2018 Sergio Lozano García. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>0</key>
+	<dict>
+		<key>name</key>
+		<string>AppKit</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>name</key>
+		<string>ExceptionHandling</string>
+	</dict>
+</dict>
 </plist>

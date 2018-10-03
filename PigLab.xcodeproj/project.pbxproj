@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BEBB1AA21555AC3004529A5 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEBB1A921555AC3004529A5 /* SidebarViewController.m */; };
+		2BEBB1AD21556043004529A5 /* SidebarHeaderCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEBB1AC21556043004529A5 /* SidebarHeaderCellView.m */; };
+		2BEBB1B021556080004529A5 /* SidebarDataCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEBB1AF21556080004529A5 /* SidebarDataCellView.m */; };
+		9D01708A215D988A00F06966 /* SidebarItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D017089215D988A00F06966 /* SidebarItems.plist */; };
+		9D01708B215D988A00F06966 /* SidebarItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D017089215D988A00F06966 /* SidebarItems.plist */; };
 		9DECA8E5214AF1F700829EC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DECA8E4214AF1F700829EC0 /* AppDelegate.m */; };
 		9DECA8E8214AF1F700829EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DECA8E7214AF1F700829EC0 /* ViewController.m */; };
 		9DECA8EA214AF1FA00829EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DECA8E9214AF1FA00829EC0 /* Assets.xcassets */; };
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BEBB1A821555AC3004529A5 /* SidebarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		2BEBB1A921555AC3004529A5 /* SidebarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		2BEBB1AB21556043004529A5 /* SidebarHeaderCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SidebarHeaderCellView.h; sourceTree = "<group>"; };
+		2BEBB1AC21556043004529A5 /* SidebarHeaderCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarHeaderCellView.m; sourceTree = "<group>"; };
+		2BEBB1AE21556080004529A5 /* SidebarDataCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SidebarDataCellView.h; sourceTree = "<group>"; };
+		2BEBB1AF21556080004529A5 /* SidebarDataCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarDataCellView.m; sourceTree = "<group>"; };
+		9D017089215D988A00F06966 /* SidebarItems.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SidebarItems.plist; sourceTree = "<group>"; };
 		9DECA8E0214AF1F700829EC0 /* PigLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PigLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DECA8E3214AF1F700829EC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DECA8E4214AF1F700829EC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D017088215D985400F06966 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D017089215D988A00F06966 /* SidebarItems.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9DECA8D7214AF1F700829EC0 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +131,13 @@
 				9DECA8EE214AF1FA00829EC0 /* Info.plist */,
 				9DECA8EF214AF1FA00829EC0 /* main.m */,
 				9DECA8F1214AF1FA00829EC0 /* PigLab.entitlements */,
+				2BEBB1A821555AC3004529A5 /* SidebarViewController.h */,
+				2BEBB1A921555AC3004529A5 /* SidebarViewController.m */,
+				2BEBB1AB21556043004529A5 /* SidebarHeaderCellView.h */,
+				2BEBB1AC21556043004529A5 /* SidebarHeaderCellView.m */,
+				2BEBB1AE21556080004529A5 /* SidebarDataCellView.h */,
+				2BEBB1AF21556080004529A5 /* SidebarDataCellView.m */,
+				9D017088215D985400F06966 /* Resources */,
 			);
 			path = PigLab;
 			sourceTree = "<group>";
@@ -237,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DECA8EA214AF1FA00829EC0 /* Assets.xcassets in Resources */,
+				9D01708A215D988A00F06966 /* SidebarItems.plist in Resources */,
 				9DECA8ED214AF1FA00829EC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D01708B215D988A00F06966 /* SidebarItems.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DECA8E8214AF1F700829EC0 /* ViewController.m in Sources */,
+				2BEBB1B021556080004529A5 /* SidebarDataCellView.m in Sources */,
 				9DECA8F0214AF1FA00829EC0 /* main.m in Sources */,
 				9DECA8E5214AF1F700829EC0 /* AppDelegate.m in Sources */,
+				2BEBB1AA21555AC3004529A5 /* SidebarViewController.m in Sources */,
+				2BEBB1AD21556043004529A5 /* SidebarHeaderCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
