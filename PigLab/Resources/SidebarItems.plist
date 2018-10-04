@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>0</key>
+<array>
 	<dict>
 		<key>name</key>
 		<string>AppKit</string>
+		<key>topics</key>
+		<array>
+			<string>Core App</string>
+			<string>Documents, Files and iCloud</string>
+			<string>Cocoa Bindings</string>
+			<string>Resource Management</string>
+		</array>
 	</dict>
-	<key>1</key>
 	<dict>
 		<key>name</key>
 		<string>ExceptionHandling</string>
+		<key>topics</key>
+		<array/>
 	</dict>
-</dict>
+</array>
 </plist>

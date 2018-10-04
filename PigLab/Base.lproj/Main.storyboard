@@ -819,7 +819,8 @@
                                                 </tableColumn>
                                             </tableColumns>
                                             <connections>
-                                                <binding destination="2kp-Cp-7C8" name="content" keyPath="self.items" id="GjB-Ca-u3M"/>
+                                                <outlet property="dataSource" destination="2kp-Cp-7C8" id="i3E-g6-Dov"/>
+                                                <outlet property="delegate" destination="2kp-Cp-7C8" id="tZw-z9-bZY"/>
                                             </connections>
                                         </outlineView>
                                     </subviews>

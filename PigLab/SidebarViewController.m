@@ -7,10 +7,14 @@
 //
 
 #import "SidebarViewController.h"
+#import "SidebarDataCellView.h"
+#import "SidebarHeaderCellView.h"
+#import "Content Providers/SidebarItemsDataStore.h"
 
 @interface SidebarViewController ()
 
 @property (weak) IBOutlet NSOutlineView *sidebarOutlineView;
+
 @property (strong, nonatomic) NSArray *items;
 
 @end
@@ -24,7 +28,7 @@ NSString *const EXCEPTIONHANDLING_STR = @"ExceptionHandling";
 {
     self = [super init];
     if (self) {
-        self.items = [[NSArray alloc] initWithObjects:APPKIT_STR, EXCEPTIONHANDLING_STR, nil];
+        
     }
     return self;
 }
@@ -33,28 +37,123 @@ NSString *const EXCEPTIONHANDLING_STR = @"ExceptionHandling";
     [super viewDidLoad];
     // Do view setup here.
     
-    [self.sidebarOutlineView setDataSource:self];
-    [self.sidebarOutlineView setDelegate:self];
+    self.items = [[SidebarItemsDataStore sharedInstance] retrieveList];
+    [self.sidebarOutlineView reloadData];
 }
 
 - (NSInteger)outlineView:(NSOutlineView *)outlineView numberOfChildrenOfItem:(id)item {
     if (item == nil) {
         return [self.items count];
     } else {
-        return 0;
+        NSDictionary *dict = (NSDictionary *)item;
+        
+        if (dict)
+        {
+            NSArray *topics = (NSArray *) [dict objectForKey:@"topics"];
+            
+            if (topics)
+            {
+                return [topics count];
+            }
+        }
     }
-}
-
-- (id)outlineView:(NSOutlineView *)outlineView child:(NSInteger)index ofItem:(nullable id)item {
-    return (NSString *) [self.items objectAtIndex:index];
+    
+    return 0;
 }
 
 - (BOOL)outlineView:(NSOutlineView *)outlineView isItemExpandable:(id)item {
+    if (item == nil)
+    {
+        return [self.items count] > 0;
+    }
+    else
+    {
+        NSObject *obj = (NSObject *)item;
+        
+        if (!obj)
+        {
+            return NO;
+        }
+        
+        if ([obj isKindOfClass:[NSString class]])
+        {
+            return NO;
+        }
+        
+        NSDictionary *dict = (NSDictionary *)obj;
+        
+        if (dict) {
+            NSArray *topics = (NSArray *) [dict objectForKey:@"topics"];
+            
+            if (topics)
+            {
+                return [topics count] > 0;
+            }
+        }
+    }
+    
     return NO;
 }
-//
-//- (NSView *)outlineView:(NSOutlineView *)outlineView viewForTableColumn:(NSTableColumn *)tableColumn item:(id)item {
-//
-//}
+
+- (id)outlineView:(NSOutlineView *)outlineView child:(NSInteger)index ofItem:(nullable id)item {
+    if (item == nil)
+    {
+        return (NSDictionary *)[self.items objectAtIndex:index];
+    }
+    else
+    {
+        NSDictionary *dict = (NSDictionary *)item;
+        
+        if (dict) {
+            NSArray *topics = (NSArray *) [dict objectForKey:@"topics"];
+            
+            if (topics)
+            {
+                return [topics objectAtIndex:index];
+            }
+        }
+    }
+    
+    return nil;
+}
+
+- (NSView *)outlineView:(NSOutlineView *)outlineView viewForTableColumn:(NSTableColumn *)tableColumn item:(id)item
+{
+    NSView *view = nil;
+    
+    NSObject *obj = (NSObject *)item;
+    
+    if ([obj isKindOfClass:[NSString class]])
+    {
+        // It's a subtopic
+        view = [outlineView makeViewWithIdentifier:@"DataCell" owner:self];
+        
+        if ([view isKindOfClass:[SidebarDataCellView class]])
+        {
+            SidebarDataCellView *castedView = (SidebarDataCellView *)view;
+            [castedView configureTitle:(NSString *)item];
+        }
+    }
+    else if ([obj isKindOfClass:[NSDictionary class]])
+    {
+        NSDictionary *dict = (NSDictionary *)obj;
+        
+        NSArray *topics = (NSArray *) [dict objectForKey:@"topics"];
+        
+        if (topics)
+        {
+            view = [outlineView makeViewWithIdentifier:@"HeaderCell" owner:self];
+            
+            if ([view isKindOfClass:[SidebarHeaderCellView class]])
+            {
+                SidebarHeaderCellView *castedView = (SidebarHeaderCellView *)view;
+                NSString *title = (NSString *)[dict objectForKey:@"name"];
+                [castedView configureTitle:title];
+            }
+        }
+    }
+    
+    return view;
+}
 
 @end
